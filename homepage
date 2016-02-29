@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VoteLocal</title>
+	<link rel="stylesheet" type="text/css" href="votelocal.css">
+	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
+</head>
+
+<body>
+	<div class="description">
+		<p>Everything you need to know about your local government in one click.</p>
+	</div>
+	<div class="searchbar">
+		<input class="textbox" type="search" placeholder="Enter a city, zip code, or politician name">
+		<input class="sub" type="submit" value="Search"/>
+	</div>
+
+	<!-- <script src="votelocal.js"></script> -->
+</body>
+
