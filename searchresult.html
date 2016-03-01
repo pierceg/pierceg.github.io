@@ -1,39 +1,41 @@
+
 <html>
 	<head>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="searchresult.css">
+        <script src="toolbar.js"></script>
 	</head>
 	<body>
         <div style="clear: both;">
             <div class="searchbar" style="clear: right;">
-                <div ID= "votelocal"><img src="http://i.imgur.com/f8h7k7o.png"></div>
-                <input class="textbox" type="search" placeholder="Enter a city, zip code, or politician name">
-                <input class="sub" type="submit" value="Search"/>
+                <div ID= "votelocal"><img src="http://i.imgur.com/f8h7k7o.png" onclick="gohome()"></div>
+                <input class="textbox" type="search" placeholder="Enter a city, zip code, or politician name" id="searchtxt" >
+                <input class="sub" type="submit" value="Search" onclick="search()"/>
             </div>
         </div>
         <div style="clear: left; margin-left: 10px;">
             <h1>Search Results for: "60201"</h1>
         </div>
         <div class="results-box">
-            <p style="float: left; margin: 10px;"><img src="img/tisdahl.jpg" width=150px></p>
-            <p><h2><a href="">Elizabeth B. Tisdahl</a></h2></p>
+            <p style="float: left; margin: 10px;"><img src="http://i.imgur.com/KjWOgFM.jpg" alt="tisdahl" width="150" ></p>
+            <p><h2><a href="tisdahl.html">Elizabeth B. Tisdahl</a></h2></p>
             <p>Position: Mayor of the Evanston City Council</p>
             <p>Term: 2009 &#45; Current</p>
         </div>
         <div class="results-box" style="clear: left;">
-            <p style="float: left; margin: 10px;"><img src="img/greene.jpg" width=150px></p>
-            <p><h2><a href="">Rodney Greene</a></h2></p>
+            <p style="float: left; margin: 10px;"><img src="http://i.imgur.com/gLMIOVh.jpg" alt="greene" width=150px></p>
+            <p><h2><a href="pagedne.html">Rodney Greene</a></h2></p>
             <p>Position: City Clerk of the Evanston City Council</p>
             <p>Term: 2009 &#45; Current</p>
         </div>
         <div class="results-box" style="clear: left;">
-            <p style="float: left; margin: 10px;"><img src="img/Suffredin.jpg" width=150px></p>
-            <p><h2><a href="">Larry Suffredin</a></h2>
+            <p style="float: left; margin: 10px;"><img src="http://i.imgur.com/mtdzJvf.jpg" alt="suffredin" width=150px></p>
+            <p><h2><a href="pagedne.html">Larry Suffredin</a></h2>
             <p>Position: Cook County Board Commissioner for the 13th District</p>
             <p>Term: 2003 &#45; Current</p>
         </div>
         <div class="results-box" style="clear: left;">
-            <p style="float: left; margin: 10px;"><img src="img/fiske.jpg" width=150px></p>
-            <p><h2><a href="">Judy Fiske</a></h2>
+            <p style="float: left; margin: 10px;"><img src="http://i.imgur.com/07QoeYp.jpg" alt="fisk" width=150px></p>
+            <p><h2><a href="pagedne.html">Judy Fiske</a></h2>
             <p>Position: 1st Ward Alderman for the City Council of Evanston</p>
             <p>Term: 2009 &#45;  Current</p>
         </div>
