@@ -12,5 +12,4 @@ function search(){
 }
 
 function gohome(){
-	window.location.href = ‘pierceg.github.io/index.html';
-}
+	window.location.href = ‘pierceg.github.io/index.html';}
