@@ -12,5 +12,5 @@ function search(){
 }
 
 function gohome(){
-	window.location.href = 'homepage.html';
+	window.location.href = ‘index.html';
 }
