@@ -3,11 +3,9 @@ function search(){
 	var querytxt = query.value;
 	if (querytxt == '60201' || querytxt == 'Evanston'){
 		window.location.href = 'searchresult.html';
-		alert("correct input");
 	}
 	else{
 		window.location.href = 'noresult.html';
-		alert(querytxt);
 	}
 }
 
