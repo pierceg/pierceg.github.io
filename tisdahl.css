@@ -134,6 +134,17 @@ padding-right:5%;
 padding-top: 100px;
 }
 
-
-Status API Training Shop Blog About Pricing
-© 2016 GitHub, Inc. Terms Privacy Security Contact Help
+.ghost-button {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  outline:none;
+  text-decoration: none;
+  margin-bottom:2.5%;
+  margin-left:1.7%;
+	font-family: 'Helvetica', sans-serif;
+    border-radius:3px;
+}
