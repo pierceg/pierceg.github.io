@@ -12,5 +12,5 @@ function search(){
 }
 
 function gohome(){
-	window.location.href = ‘index.html';
+	window.location.href = ‘pierceg.github.io/index.html';
 }
