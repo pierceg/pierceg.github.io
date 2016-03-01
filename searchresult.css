@@ -76,9 +76,14 @@ a {
     text-decoration: underline;  
 }
 
+.bar {
+    height: 75px;
+    margin: 10px;
+    color: white;
+    overflow: inherit;
+}
+
 #votelocal {
     float:left;
     margin-left: 10px;
 }
-Status API Training Shop Blog About Pricing
-© 2016 GitHub, Inc. Terms Privacy Security Contact Help
