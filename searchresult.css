@@ -4,7 +4,7 @@ div.banner {
   background-color: #060670;
   color: #ffffff;
   font-size: 32px;
-  font-family: "Helvetics";
+  font-family: "Helvetica";
   margin: 10px;
   padding: 5px;
 }
@@ -19,7 +19,7 @@ body {
 .results-box {
     border = 1px;
     height: 250px;
-    margin: 10px;
+    margin: 15px;
     border-radius: 6px;
     border-color: white;
     border-style: solid;
@@ -49,7 +49,10 @@ body {
   font-family: 'Helvetica', sans-serif;
   color: white;
   font-size: 16px;
-  padding: 20px;
+  padding: 10px;
+  margin: 5px;
+  border: solid 2px #ffffff;
+  border-radius: 35px;
 }
 
 input[type=submit] {
@@ -58,7 +61,7 @@ input[type=submit] {
 	font-size: 24px;
 	height: 40px;
 	border-radius: 35px;
-	opacity: 0.7;
+	opacity: 1.0;
 	color: #ffffff;
 	background: none;
 	border: solid 2px #ffffff;
@@ -87,5 +90,3 @@ a {
     float:left;
     margin-left: 10px;
 }
-Status API Training Shop Blog About Pricing
-© 2016 GitHub, Inc. Terms Privacy Security Contact Help
